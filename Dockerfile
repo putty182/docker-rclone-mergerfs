@@ -4,4 +4,4 @@ RUN \
   git clone --depth=1 https://github.com/trapexit/mergerfs.git; \
   cd mergerfs; \
   make && make install; \
-  apk del git g++ make python linux-headers;
+  apk del git make python;
